@@ -20,8 +20,6 @@ RegisterNumber: 212225040133
 
 (i) To find the L and U matrix
 ```
-Developed by: SUBITHA S
-RegisterNumber: 212225040432
 import numpy as np
 from scipy.linalg import lu
 A=np.array(eval(input()))
@@ -32,8 +30,6 @@ print(U)
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
-Developed by: SUBITHA S
-RegisterNumber: 212225040432
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=np.array(eval(input()))
